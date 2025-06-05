@@ -1,2 +1,22 @@
 # test-browser-use
-Playground for browser use
+
+Minimal example project demonstrating the [browser-use](https://github.com/browser-use/browser-use) library.
+
+## Setup
+
+1. (Optional) Create a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Add your API keys to a `.env` file as described in the browser-use documentation.
+4. Run the example:
+   ```bash
+   python main.py
+   ```
+
+This will launch the agent which opens a browser and performs the task defined in `main.py`.
