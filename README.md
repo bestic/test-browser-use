@@ -16,7 +16,9 @@ Minimal example project demonstrating the [browser-use](https://github.com/brows
 3. Add your API keys to a `.env` file as described in the browser-use documentation.
 4. Run the example:
    ```bash
-   python main.py
+    python main.py
    ```
 
-This will launch the agent which opens a browser and performs the task defined in `main.py`.
+This will open `example.com`, capture a screenshot of `div#content` into the
+`screenshot` directory and ask the agent whether a smile icon is visible in that
+image.
